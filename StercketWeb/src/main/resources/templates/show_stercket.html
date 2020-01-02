@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+  <head>
+    <title>Stercket Battle Web edition</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+  </head>
+    <body>
+       <h1 th:text="${stercket.name}"></h1>
+       <p th:text="|Attack : ${stercket.attack}|"></p>
+       <p th:text="|Defense : ${stercket.defense}|"></p>
+       <p th:text="|Life points : ${stercket.lifePoints} / ${stercket.lifePointsMax|"></p>
+    </body>
+</html>
